@@ -1,0 +1,19 @@
+{
+  "name": "osu-361-pace-calculator",
+  "version": "1.0.0",
+  "description": "Microservice that calculates the pace a user must keep to finish 100% completion by week end.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "prod": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
