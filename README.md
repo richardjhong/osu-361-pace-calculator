@@ -4,13 +4,13 @@ A lightweight REST API microservice that calculates whether a user is on track t
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) >= 18.0.0
+- [Node.js](https://nodejs.org/)
 - npm
 
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/richardjhong/osu-361-pace-calculator
 cd osu-361-pace-calculator
 npm install
 ```
