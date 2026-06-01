@@ -60,7 +60,7 @@ Calculates the pace needed to finish the remaining items before the week ends.
 #### Example Request
 
 ```bash
-curl "http://localhost:3001/pace?remaining=9&total=21"
+curl "https://osu-361-pace-calculator.onrender.com/pace?remaining=9&total=21"
 ```
 
 #### Example Response (HTTP 200)
@@ -110,7 +110,7 @@ curl "http://localhost:3001/pace?remaining=9&total=21"
 **Ahead of schedule**
 
 ```bash
-curl "http://localhost:3000/pace?remaining=2&total=21"
+curl "https://osu-361-pace-calculator.onrender.com/pace?remaining=2&total=21"
 ```
 
 ```json
@@ -129,7 +129,7 @@ curl "http://localhost:3000/pace?remaining=2&total=21"
 **Behind schedule**
 
 ```bash
-curl "http://localhost:3000/pace?remaining=15&total=21"
+curl "https://osu-361-pace-calculator.onrender.com/pace?remaining=15&total=21"
 ```
 
 ```json
@@ -148,7 +148,7 @@ curl "http://localhost:3000/pace?remaining=15&total=21"
 **Last day of the week**
 
 ```bash
-curl "http://localhost:3000/pace?remaining=4&total=21"
+curl "https://osu-361-pace-calculator.onrender.com/pace?remaining=4&total=21"
 ```
 
 ```json
